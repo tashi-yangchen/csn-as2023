@@ -1,3 +1,3 @@
 Hellos!
-This is fileA.
-Today is sunny Sunday!
+Please enter your name here if you have created your bio page in the repo.
+1. Tashi Yangchen
