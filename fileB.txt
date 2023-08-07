@@ -1,0 +1,3 @@
+Hellos!
+This is fileA.
+Today is sunny Sunday!
