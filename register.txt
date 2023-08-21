@@ -2,3 +2,5 @@ Hellos!
 Please enter your name here if you have created your bio page in the repo.
 1. Tashi Yangchen
 2. Rudra Dungyel
+3. Tshering Dendup
+
