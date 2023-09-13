@@ -11,3 +11,4 @@ Please enter your name here if you have created your bio page in the repo.
 9. Nidup Zangmo
 10. Samten Lhamo
 11. Norbu Gyeltshen
+12.Sonam Dorji
