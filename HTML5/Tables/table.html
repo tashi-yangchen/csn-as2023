@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .tab1, th, td{
+            border:2px solid rgb(6, 150, 207);
+            border-collapse: collapse;
+            width: fit-content;
+            }
+            /* we use even for 2nd 4th and 6th columns or rows */
+            tr:nth-child(even){
+                background-color: beige;
+            }
+
+            td:nth-child(even){
+                background-color: bisque;
+            }
+
+            th:nth-child(even){
+                background-color: rgb(247, 138, 6);
+            }
+
+            th:nth-child(odd){
+                background-color: rgb(247, 138, 6);
+            }
+            /* .tab1{
+                border: 2px solid brown;
+                background-color: aqua;
+                border-collapse: collapse;
+            }
+
+            th{
+                border: 2px solid brown;
+                background-color: rgb(110, 214, 49);
+                border-collapse: collapse;
+            }
+
+            td{
+                border: 2px solid rgb(82, 156, 224);
+                background-color: rgb(34, 181, 207);
+                border-collapse: collapse;
+            } */
+
+            body{
+                background-color: burlywood;
+                font-family: monospace;
+                color: rgb(153, 151, 13);
+            } 
+        </style>
+    </head>
+    <!-- simple table -->
+    <body>
+        <table class="tab1">
+            <tr>
+                <th>Name</th>
+                <th>Roll.No</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Samten</td>
+                <td>17111111</td>
+                <td>samten@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Karma</td>
+                <td>77797981</td>
+                <td>karma@gmail.com</td>
+            </tr>
+            <tr>
+                <td>ApBokTo</td>
+                <td>17676543</td>
+                <td>boktola@yaho.com</td>
+            </tr>
+        </table><br><br><br>
+    </body>
+    <!-- nested table  -->
+    <body>
+        <table class="tab2">
+            <tr>
+                <th>Name</th>
+                <th>Roll.No</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Samten</td>
+                <td>17111111</td>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <th>Roll.No</th>
+                            <th>Email</th>
+                        </tr>
+                        <tr>
+                            <td>Karma</td>
+                            <td>77797981</td>
+                            <td>karma@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>ApBokTo</td>
+                            <td>17676543</td>
+                            <td>boktola@yaho.com</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>Karma</td>
+                <td>77797981</td>
+                <td>karma@gmail.com</td>
+            </tr>
+            <tr>
+                <td>ApBokTo</td>
+                <td>17676543</td>
+                <td>boktola@yaho.com</td>
+            </tr>
+        </table>
+    </body>
+</html>

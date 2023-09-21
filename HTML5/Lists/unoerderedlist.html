@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .unorder{
+                background-color: aquamarine;
+                font-family: fantasy;
+            }
+            #nest{
+                font-family: sans-serif;
+            }
+            .nested{
+                font-family: monospace;
+                list-style-type: lower-roman;
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="unorder"><br><br>
+            <li>This is unordered list</li>
+            <li>This is unordered list</li>
+            <ul id="nest"><br>
+                <li>nested unordered list</li>
+                <li>nested unordered list</li>
+                <ol class="nested"><br>
+                    <li>nested ordered list</li>
+                    <li>nested ordered list</li>
+                    <li>nested ordered list</li>
+                </ol><br>
+                <li>nested unordered list</li>
+                <li>nested unordered list</li>
+                <li>nested unordered list</li>
+            </ul><br>
+            <li>This is unordered list</li>
+            <li>This is unordered list</li><br><br>
+        </ul>
+    </body>
+</html>
+

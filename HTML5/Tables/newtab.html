@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+             table, th, td{
+            border:2px solid rgb(6, 150, 207);
+            border-collapse: collapse;
+            width: 50%;
+            text-align: center;
+            
+            }
+
+            body{
+                background-color: aqua;
+            }
+            
+            /* to use in internal css we need to use this instead of @ align="center" */
+            .text-center{
+                display: flex;
+                align-items: center; 
+                justify-content: center; 
+            }
+        </style>
+    </head>
+    <body><br><br><br>
+        <div class="text-center">
+            <table align="center">
+                <tr>
+                    <th colspan="2">A</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">B</td>
+                    <td>C</td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
