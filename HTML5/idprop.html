@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* using id to do styling */
+            /* using same id can be read by browser but there will be conflict with javascript */
+            #myParent{
+                background-color: beige;
+            }
+
+            /* CLASS */
+/* - class name will have period(.) in the beginning */
+/* - 1 class can be shared to more than one HTML element  */
+/* - an element can belong to more than one class */
+          
+/* ID */
+/* - id should only be given to one HTML element  */
+/* - an element can have only one unique id  */
+/* - id name will have hash (#) in the beginning */
+
+            /* #parent{
+                background-color: aquamarine;
+            } */
+        </style>
+    </head>
+    <body>
+        <p id="myParent">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil dicta suscipit, 
+            dolorum ad voluptas vero quis non maiores minus ex officiis ducimus odit assumenda 
+            unde obcaecati reiciendis veritatis nemo libero.
+        </p>
+        <div id="myParent">
+            <p id="child">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, 
+                pariatur quam recusandae nesciunt iure tempore laborum dolores deleniti 
+                illum voluptas adipisci laboriosam quidem quisquam, 
+                eos ipsa culpa cupiditate fugiat magni.
+            </p>
+        </div>
+    </body>
+</html>

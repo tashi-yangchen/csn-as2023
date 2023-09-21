@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1 class="header">Table in HTML</h1>
+        <style>
+            .header{
+                text-align: center;
+            }
+
+            table{
+                border: 2px solid rgb(22, 109, 41);
+                border-collapse: collapse;
+                width: 50%;
+            }
+
+            th{
+                border: 2px solid rgb(22, 109, 41);
+                text-align: center;
+                border-collapse: collapse;
+            }
+
+            td{
+                border: 2px solid rgb(22, 109, 41);
+                text-align: center;
+                border-collapse: collapse;
+            }
+
+            .alignmen{
+                display: flex;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="alignmen">
+            <table>
+                <tr>
+                    <th rowspan="2">A</th>
+                    <th>B</th>
+                    <th rowspan="3">D</th>
+                    <th colspan="2">E</th>
+                    <th>F</th>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td rowspan="2">G</td>
+                    <td rowspan="2">H</td>
+                    <td rowspan="2">I</td>
+                </tr>
+                <tr>
+                    <td colspan="2">J</td>
+                </tr>
+                <tr>
+                    <td colspan="3">K</td>
+                    <td>L</td>
+                    <td colspan="2">M</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
