@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Form</title>
+    </head>
+    <body>
+        <form action="dat.py" method="post" target="_blank">
+            <fieldset>
+                <legend>Authentication Details</legend>
+            <lable for="uname">Username:</lable><br>
+            <input type="text" id="uname" name="user-name"><br>
+            <lable for="pwd">Password</lable><br>
+            <input type="password" id="pwd" name="password"><br>
+            </fieldset>
+            <!--Radio-->
+            <h5>Choose gender</h5>
+            <input type="radio" id="fm" name="other" value="fm">
+            <lable for="fm">Female</lable>
+            <input type="radio" id="ma" name="other" value="ma">
+            <lable for="ma">Male</lable>
+            <input type="radio" id="ot" name="gender" value="ot">
+            <lable for="ot">Other</lable><br>
+            <!--Checkbox-->
+            <h5>Choose programming languages:</h5>
+            <input type="checkbox" id="py" name="languages" value="python" checked>
+            <lable for="py">Python</lable>
+            <input type="checkbox" id="pe" name="languages" value="perl">
+            <lable for="pe">Perl</lable>
+            <input type="checkbox" id="c" name="languages" value="c++">
+            <lable for="c">C++</lable><br><br>
+            <!--Drop Down-->
+            <lable for="tool">Choose a project collaboration tool</lable>
+            <select name="project tool" id="tool"><br>
+                <option value="gt">Github</option>
+                <option value="gl" selected>Gitlab</option>
+                <option value="as">Asana</option>
+            </select><br><br>
+            <label for="assignment">Upload Resume:</label>
+            <input type="file" id="assignment" name="assignment 1"><br><br>
+            <input type="submit" value="Submit Details">
+        </form>
+    </body>
+</html>

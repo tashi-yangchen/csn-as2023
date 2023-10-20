@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        h1{
+            background-color: darkcyan;
+            padding: 50px;
+        }
+
+        img{
+            height: auto;
+            width: 23%;
+            box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+            border-radius: 3rem;
+
+        }
+        #parent{
+            height: 600px;
+            background-color: cadetblue;
+            padding: 0;
+            margin: 0;
+        }
+        .child{
+            padding: 50px;
+        }
+    
+        @media all and (max-width:800px)
+        {
+            img{
+                width: 45%;
+            }
+            h1{
+                background-color: green;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Responsive Web Design</h1>
+    <img src="https://th.bing.com/th/id/OIP.Z_PIeIRDajXPmZHROt-T_QHaEK?w=287&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="winter1">
+    <img src="https://th.bing.com/th/id/OIP.Z_PIeIRDajXPmZHROt-T_QHaEK?w=287&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="winter2">
+    <img src="https://th.bing.com/th/id/OIP.Z_PIeIRDajXPmZHROt-T_QHaEK?w=287&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="winter3">
+    <img src="https://th.bing.com/th/id/OIP.Z_PIeIRDajXPmZHROt-T_QHaEK?w=287&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="winter4">
+    <div id="parent">
+        <h2 class="child">Fundamentals of Responsive Web Design</h2>
+        <div class="child">
+            <h3>Viewport Meta Tag</h3>
+        </div>
+        <div class="child">
+            <h3>Media Queries</h3>
+        </div>
+        <div class="child">
+            <h3>Fluid Layouts</h3>
+        </div>
+    </div>
+</body>
+</html>
